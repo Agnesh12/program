@@ -8,10 +8,11 @@ public class thirdlargestnumber {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > large) {
                 tlarge = slarge;
-            slarge = large;
-            large = arr[i];
+                slarge = large;
+                 large = arr[i];
             }
             if (large != arr[i] && arr[i] > slarge) {
+                tlarge = slarge;
                 slarge = arr[i];
             }
             if(arr[i] != large && arr[i] != slarge && arr[i] > tlarge) {
@@ -21,7 +22,7 @@ public class thirdlargestnumber {
         System.out.println(tlarge);
     }
     public static void main(String[] args) {
-        int[] arr = {5, 4, 4, 3, 2};
+        int[] arr = {5, 4, 4, 3, 3};
         largestnnumber(arr);
     }
 }

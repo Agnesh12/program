@@ -10,7 +10,7 @@ public class twosumoptimal {
             sum += arr[i];
             rem = target - arr[i];
             if(ans.containsKey(rem)) {
-                return new int[]{i, ans.get(rem)};
+                return new int[]{ans.get(rem), i};
             }
             else {
                 ans.put(sum, i);

@@ -6,7 +6,7 @@ public class floor {
         int target = 6;
         int low = 0;
         int ans = -1;
-        int ans1 = -1;
+
         int high = arr.length - 1;
         while(low <= high) {
             int mid = low + (high - low) / 2;
