@@ -25,7 +25,7 @@ public class zeromatrixbetter {
     }
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
-        matrix.add(new ArrayList<>(Arrays.asList(1, 1, 1)));
+        matrix.add(new ArrayList<>(Arrays.asList(0, 1, 1)));
         matrix.add(new ArrayList<>(Arrays.asList(1, 0, 1)));
         matrix.add(new ArrayList<>(Arrays.asList(1, 1, 1)));
         int row = matrix.size();
