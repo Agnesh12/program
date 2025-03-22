@@ -11,7 +11,8 @@ class zeromatrix {
         }
     }
     static void markcol(ArrayList<ArrayList<Integer>> matrix, int row, int col, int j) {
-        for(int i = 0; i < col; i++) {
+        for(int i = 0; i < col;
+            i++) {
             if(matrix.get(i).get(j) != 0) {
                // matrix.get(i).get(j);
                 matrix.get(i).set(j, -1);

@@ -21,7 +21,7 @@ class spiral {
                 }
                 bottom--;
             }
-            if(left < right) {
+            if(left <= right) {
                 for(int i = bottom; i >= top; i--) {
 
                     System.out.print(" " + arr[i][left]);

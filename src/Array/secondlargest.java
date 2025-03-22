@@ -7,6 +7,7 @@ public class secondlargest {
         int large = Integer.MIN_VALUE;
         for(int i = 0; i < arr.length; i++) {
             if(arr[i] > large) {
+                slarge = large;
                 large = arr[i];
             }
             if(arr[i] != large && arr[i] > slarge) {
